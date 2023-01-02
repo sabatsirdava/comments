@@ -16,50 +16,50 @@ class CommentSeeder extends Seeder
     public function run()
     {
         Comment::create([
-            "author" => "gogoschka-1",
-            "comment" => "A Milestone Of Science Fiction And A Cyberpunk Masterpiece",
+            "author" => "რუსთაველი",
+            "comment" => "იყო არაბეთს როსტევან მეფე ღმრთისაგან სვიანი",
             "post_id" => 1
         ]);
 
         Comment::create([
-            "author" => "Nazi_Fighter_David",
-            "comment" => "An incredibly beautiful-looking film as one would expect with director Ridley Scott",
+            "author" => "ავთანდილი",
+            "comment" => "სიცრუე და ორპირობა ავნებს ხორცსა მერმე სულსა",
             "post_id" => 1
         ]);
 
         Comment::create([
-            "author" => "tobbe_aik_9",
-            "comment" => "Not your typical comicbook movie",
+            "author" => "Someone",
+            "comment" => "no pain no gain",
             "post_id" => 2
         ]);
 
         Comment::create([
-            "author" => "CinemaClown",
-            "comment" => "The Sci-Fi That Put The Science In Science Fiction",
+            "author" => "ილია ჭავჭავაძე",
+            "comment" => "მოძრაობა და მხოლოდ მოძრაობა  ჩემო თერგო",
             "post_id" => 3
         ]);
 
         Comment::create([
-            "author" => "Smells_Like_Cheese",
-            "comment" => "2001: A Cure for Insomnia",
+            "author" => "აკაკი წერეთელი",
+            "comment" => "ვინც მეტსა გრძნობს, იმას უფრო ხშირად უტყდება გული.",
             "post_id" => 3
         ]);
 
         Comment::create([
-            "author" => "jackgdemoss",
-            "comment" => "One of the most memorable plot twists of this decade",
+            "author" => "სტალინი",
+            "comment" => "არ უნდა? კედელთან",
             "post_id" => 4
         ]);
 
         Comment::create([
-            "author" => "Chrysanthepop",
-            "comment" => "An incredibly beautiful-looking film as one would expect with director Ridley Scott",
+            "author" => "ლენინი",
+            "comment" => "სწავლა სწავლა და სწავლა",
             "post_id" => 5
         ]);
 
         Comment::create([
-            "author" => "DrWetter",
-            "comment" => "Pixar does it again!",
+            "author" => "obito",
+            "comment" => "A true leader can let others step on his corpse, but he will never step on his comrades",
             "post_id" => 5
         ]);
     }

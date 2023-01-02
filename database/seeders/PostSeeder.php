@@ -16,23 +16,23 @@ class PostSeeder extends Seeder
     public function run()
     {
         Post::create([
-            "title" => "Blade Runner"
+            "title" => "ვეფხისტყაოსანი"
         ]);
 
         Post::create([
-            "title" => "Watchmen"
+            "title" => "random quotes"
         ]);
 
         Post::create([
-            "title" => "2001: A Space Odyssey"
+            "title" => "ილია აკაკი"
         ]);
 
         Post::create([
-            "title" => "Shutter Island"
+            "title" => "კომუნიზმი"
         ]);
 
         Post::create([
-            "title" => "WALL·E"
+            "title" => "speeches from naruto"
         ]);
     }
 }
